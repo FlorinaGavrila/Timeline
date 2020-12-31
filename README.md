@@ -4,7 +4,7 @@
 * Creating a timeline template that can be used by a couple or a family, represented by photos and description.
 ---
 ### Description:
-* Using pseudo-elements `::after` & `::before` to create the timeline line, and to style time containers;
+* Using pseudo-elements `::after` & `::before` to create the timeline element, and to style date containers;
 * Positioning content using Grid layout;
 * Using `relative` and `absolute position` to move elements in timeline container;
 * Overlaping elements with `z-index` property;

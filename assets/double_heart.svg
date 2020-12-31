@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>doble_heart</title>
+    <g id="doble_heart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape" transform="translate(-6.562500, -6.741333)">
+            <polygon id="Rectangle" fill="#E64402" transform="translate(36.245692, 41.698052) rotate(-45.000000) translate(-36.245692, -41.698052) " points="18.9019421 24.3543019 53.5894421 24.3543019 53.5894421 59.0418019 18.9019421 59.0418019"></polygon>
+            <circle id="Oval" fill="#E64402" transform="translate(24.644722, 30.097081) rotate(-45.000000) translate(-24.644722, -30.097081) " cx="24.6447215" cy="30.0970813" r="17.34375"></circle>
+            <circle id="Oval" fill="#E64402" transform="translate(48.509575, 29.434169) rotate(-45.000000) translate(-48.509575, -29.434169) " cx="48.5095754" cy="29.4341687" r="17.34375"></circle>
+            <path d="M25.4915727,9.76179433 C33.6787459,9.76179433 40.3960587,16.2346078 41.0699985,24.4762059 L41.1255967,24.4764349 L41.4098914,24.4795604 C49.9006065,24.6501571 56.7325487,31.7827747 56.7325487,40.5566146 C56.7325487,49.4374527 49.7329578,56.6367943 41.0985247,56.6367943 L41.1255487,56.6357943 L41.1255967,56.6367943 L9.85754871,56.6367943 L9.85754871,24.4764349 L9.91314685,24.4762059 C10.5870867,16.2346078 17.3043995,9.76179433 25.4915727,9.76179433 Z" fill="#FFFFFF" transform="translate(33.295049, 33.199294) rotate(-45.000000) translate(-33.295049, -33.199294) "></path>
+        </g>
+    </g>
+</svg>

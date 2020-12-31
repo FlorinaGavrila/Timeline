@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timeline</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+
+    <body>
+        <!-- JS function preventing the animation on window resize -->
+        <script>
+            (function() {
+                const classes = document.body.classList;
+                let timer = 0;
+                window.addEventListener('resize', function() {
+                    if (timer) {
+                        clearTimeout(timer);
+                        timer = null;
+                    } else
+                        classes.add('stop-transitions');
+
+                    timer = setTimeout(() => {
+                        classes.remove('stop-transitions');
+                        timer = null;
+                    }, 100);
+                });
+            })();
+        </script>
+
+
+        <div class="title">
+            <img src="assets/title.svg" alt="">
+        </div>
+
+        <div class="timeline">
+
+            <div class="container_left">
+                <div class="box1">
+                    <div class="picture1">
+                        <img src="images/hawaii.jpg" alt="Picture of montains in Hawaii">
+                    </div>
+                    <div class="content_left">
+                        <p>The one with the Hawaiian trip</p>
+                    </div>
+                </div>
+                <div class="heart_left">
+                    <img src="assets/double_heart.svg" alt="">
+                </div>
+                <div class="time_left">
+                    <h4>June 2019</h4>
+                </div>
+            </div>
+
+            <div class="container_right">
+                <div class="box2">
+                    <div class="picture2">
+                        <img src="images/san_francisco.jpg" alt="Picture of Golden Gate from San Francisco">
+                    </div>
+                    <div class="content_right">
+                        <p>The one in San Francisco</p>
+                    </div>
+                </div>
+                <div class="heart_right">
+                    <img src="assets/double_heart_reverse.svg" alt="">
+                </div>
+                <div class="time_right">
+                    <h4>June 2020</h4>
+                </div>
+            </div>
+
+            <div class="container_left">
+                <div class="box1">
+                    <div class="picture1">
+                        <img src="images/hawaii.jpg" alt="Picture of montains in Hawaii">
+                    </div>
+                    <div class="content_left">
+                        <p>The one with the Hawaiian trip</p>
+                    </div>
+                </div>
+                <div class="heart_left">
+                    <img src="assets/double_heart.svg" alt="">
+                </div>
+                <div class="time_left">
+                    <h4>June 2019</h4>
+                </div>
+            </div>
+
+            <div class="container_right">
+                <div class="box2">
+                    <div class="picture2">
+                        <img src="images/san_francisco.jpg" alt="Picture of Golden Gate from San Francisco">
+                    </div>
+                    <div class="content_right">
+                        <p>The one in San Francisco</p>
+                    </div>
+                </div>
+                <div class="heart_right">
+                    <img src="assets/double_heart_reverse.svg" alt="">
+                </div>
+                <div class="time_right">
+                    <h4>June 2020</h4>
+                </div>
+            </div>
+
+            <div class="container_left">
+                <div class="box1">
+                    <div class="picture1">
+                        <img src="images/hawaii.jpg" alt="Picture of montains in Hawaii">
+                    </div>
+                    <div class="content_left">
+                        <p>The one with the Hawaiian trip</p>
+                    </div>
+                </div>
+                <div class="heart_left">
+                    <img src="assets/double_heart.svg" alt="">
+                </div>
+                <div class="time_left">
+                    <h4>June 2019</h4>
+                </div>
+            </div>
+
+            <div class="container_right">
+                <div class="box2">
+                    <div class="picture2">
+                        <img src="images/san_francisco.jpg" alt="Picture of Golden Gate from San Francisco">
+                    </div>
+                    <div class="content_right">
+                        <p>The one in San Francisco</p>
+                    </div>
+                </div>
+                <div class="heart_right">
+                    <img src="assets/double_heart_reverse.svg" alt="">
+                </div>
+                <div class="time_right">
+                    <h4>June 2020</h4>
+                </div>
+            </div>
+
+            <div class="container_left">
+                <div class="box1">
+                    <div class="picture1">
+                        <img src="images/hawaii.jpg" alt="Picture of montains in Hawaii">
+                    </div>
+                    <div class="content_left">
+                        <p>The one with the Hawaiian trip</p>
+                    </div>
+                </div>
+                <div class="heart_left">
+                    <img src="assets/double_heart.svg" alt="">
+                </div>
+                <div class="time_left">
+                    <h4>June 2019</h4>
+                </div>
+            </div>
+
+            <div class="container_right">
+                <div class="box2">
+                    <div class="picture2">
+                        <img src="images/san_francisco.jpg" alt="Picture of Golden Gate from San Francisco">
+                    </div>
+                    <div class="content_right">
+                        <p>The one in San Francisco</p>
+                    </div>
+                </div>
+                <div class="heart_right">
+                    <img src="assets/double_heart_reverse.svg" alt="">
+                </div>
+                <div class="time_right">
+                    <h4>June 2020</h4>
+                </div>
+            </div>
+
+            <div class="container_left">
+                <div class="box1">
+                    <div class="picture1">
+                        <img src="images/hawaii.jpg" alt="Picture of montains in Hawaii">
+                    </div>
+                    <div class="content_left">
+                        <p>The one with the Hawaiian trip</p>
+                    </div>
+                </div>
+                <div class="heart_left">
+                    <img src="assets/double_heart.svg" alt="">
+                </div>
+                <div class="time_left">
+                    <h4>June 2019</h4>
+                </div>
+            </div>
+
+            <div class="container_right">
+                <div class="box2">
+                    <div class="picture2">
+                        <img src="images/san_francisco.jpg" alt="Picture of Golden Gate from San Francisco">
+                    </div>
+                    <div class="content_right">
+                        <p>The one in San Francisco</p>
+                    </div>
+                </div>
+                <div class="heart_right">
+                    <img src="assets/double_heart_reverse.svg" alt="">
+                </div>
+                <div class="time_right">
+                    <h4>June 2020</h4>
+                </div>
+            </div>
+
+            <div class="container_left">
+                <div class="box1">
+                    <div class="picture1">
+                        <img src="images/hawaii.jpg" alt="Picture of montains in Hawaii">
+                    </div>
+                    <div class="content_left">
+                        <p>The one with the Hawaiian trip</p>
+                    </div>
+                </div>
+                <div class="heart_left">
+                    <img src="assets/double_heart.svg" alt="">
+                </div>
+                <div class="time_left">
+                    <h4>June 2019</h4>
+                </div>
+            </div>
+
+            <div class="container_right">
+                <div class="box2">
+                    <div class="picture2">
+                        <img src="images/san_francisco.jpg" alt="Picture of Golden Gate from San Francisco">
+                    </div>
+                    <div class="content_right">
+                        <p>The one in San Francisco</p>
+                    </div>
+                </div>
+                <div class="heart_right">
+                    <img src="assets/double_heart_reverse.svg" alt="">
+                </div>
+                <div class="time_right">
+                    <h4>June 2020</h4>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

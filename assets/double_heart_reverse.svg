@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>doble_heart_reverse</title>
+    <g id="doble_heart_reverse" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Combined-Shape" transform="translate(-7.250977, -7.678833)">
+            <polygon id="Rectangle" fill="#E64402" transform="translate(36.465419, 41.698052) rotate(-45.000000) translate(-36.465419, -41.698052) " points="19.1216687 24.3543019 53.8091687 24.3543019 53.8091687 59.0418019 19.1216687 59.0418019"></polygon>
+            <circle id="Oval" fill="#E64402" transform="translate(24.864448, 30.097081) rotate(-45.000000) translate(-24.864448, -30.097081) " cx="24.8644481" cy="30.0970813" r="17.34375"></circle>
+            <circle id="Oval" fill="#E64402" transform="translate(48.729302, 29.434169) rotate(-45.000000) translate(-48.729302, -29.434169) " cx="48.7293019" cy="29.4341687" r="17.34375"></circle>
+            <path d="M16.6397752,56.6354009 L16.6397752,24.4750415 L16.6953734,24.4748125 C17.3693132,16.2332144 24.086626,9.76040088 32.2737992,9.76040088 C40.4609724,9.76040088 47.1782852,16.2332144 47.852225,24.4748125 L47.9078232,24.4750415 L48.1921179,24.478167 C56.682833,24.6487637 63.5147752,31.7813812 63.5147752,40.5552212 C63.5147752,49.4360592 56.5151843,56.6354009 47.8807512,56.6354009 L47.9078232,56.6354009 L16.6397752,56.6354009 Z" fill="#FFFFFF" transform="translate(40.077275, 33.197901) rotate(-45.000000) translate(-40.077275, -33.197901) "></path>
+        </g>
+    </g>
+</svg>
